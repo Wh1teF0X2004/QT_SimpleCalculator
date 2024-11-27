@@ -181,6 +181,32 @@
      <string>-/+</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="InputPrevious">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>180</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LblPrevious">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>180</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Previous Result:</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>
