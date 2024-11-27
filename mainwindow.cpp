@@ -89,3 +89,18 @@ void MainWindow::on_BtnDivide_2_clicked()
     ui -> InputPrevious -> setText(QString::number(previousNum));
 }
 
+
+void MainWindow::on_BtnClear_clicked()
+{
+    firstNum = 0;
+    secondNum = 0;
+    finalNum = 0;
+    previousNum = 0;
+
+    // Clear the UI inputs and outputs
+    ui->InputFirst->clear();
+    ui->InputSecond->clear();
+    ui->InputFinal->clear();
+    ui->InputPrevious->clear();
+}
+

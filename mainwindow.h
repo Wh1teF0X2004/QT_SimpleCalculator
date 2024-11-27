@@ -28,6 +28,8 @@ private slots:
 
     void on_BtnDivide_2_clicked();
 
+    void on_BtnClear_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>268</width>
-    <height>226</height>
+    <height>273</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -205,6 +205,25 @@
     </property>
     <property name="text">
      <string>Previous Result:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnClear">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>201</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>31</width>
+      <height>24</height>
+     </size>
+    </property>
+    <property name="text">
+     <string>AC / C / Clear All</string>
     </property>
    </widget>
   </widget>
